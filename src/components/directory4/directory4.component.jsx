@@ -12,21 +12,21 @@ class Directory4 extends React.Component {
             sections: [
                 {
                     title: 'women-shades',
-                    imageUrl: 'https://ibb.co/VBybBYH',
+                    imageUrl: 'https://i.ibb.co/Yj9JjBD/woman-shades-front-Cropped.jpg',
                     size: 'medium',
                     id: 14,
                     linkUrl: 'shop/women-shades'
                 },
                 {
                     title: 'men-shades',
-                    imageUrl: 'https://ibb.co/yNpDVv3',
+                    imageUrl: 'https://i.ibb.co/b6Fx7wf/men-shades-front-Cropped.jpg',
                     size: 'medium',
                     id: 15,
                     linkUrl: 'shop/men-shades'
                 },
                 {
                     title: 'necklaces',
-                    imageUrl: 'https://ibb.co/k5bmhm3',
+                    imageUrl: 'https://i.ibb.co/7jMkGkg/necklace-front-Cropped.jpg',
                     size: 'medium',
                     id: 16,
                     linkUrl: 'shop/necklaces'
@@ -40,7 +40,9 @@ class Directory4 extends React.Component {
             <div className='directory-menu'>
                 {
                     this.state.sections.map(({title, imageUrl, id}) => (
-                        <MenuItem4 key={id} title={title} />
+                        <MenuItem4 key={id} title={title}
+                        imageUrl={imageUrl}
+                        />
                     ))
                 }
             </div>

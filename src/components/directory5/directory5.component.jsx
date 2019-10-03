@@ -12,14 +12,14 @@ class Directory5 extends React.Component {
             sections: [
                 {
                     title: 'all-women',
-                    imageUrl: 'https://ibb.co/5MtqNcZ',
+                    imageUrl: 'https://i.ibb.co/R9Xqk6S/women-all-front.jpg',
                     size: 'large',
                     id: 17,
                     linkUrl: 'shop/all-women'
                 },
                 {
                     title: 'all-men',
-                    imageUrl: 'https://ibb.co/sbw3YpL',
+                    imageUrl: 'https://i.ibb.co/YPkjs4v/men-all-products-front-Cropped.jpg',
                     size: 'large',
                     id: 18,
                     linkUrl: 'shop/all-men'
@@ -32,8 +32,11 @@ class Directory5 extends React.Component {
         return (
             <div className='directory-menu'>
                 {
-                    this.state.sections.map(({title, imageUrl, id}) => (
-                        <MenuItem5 key={id} title={title} />
+                    this.state.sections.map(({title, imageUrl, id, size}) => (
+                        <MenuItem5 key={id} title={title}
+                        imageUrl={imageUrl}
+                        size={size}
+                        />
                     ))
                 }
             </div>
