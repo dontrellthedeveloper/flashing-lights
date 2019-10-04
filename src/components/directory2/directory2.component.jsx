@@ -11,21 +11,21 @@ class Directory2 extends React.Component {
         this.state = {
             sections: [
                 {
-                    title: 'women-purses',
+                    title: 'women purses',
                     imageUrl: 'https://i.ibb.co/ykYj6dH/women-purse-front-Cropped.jpg',
                     size: 'medium',
                     id: 3,
                     linkUrl: 'shop/women-purses'
                 },
                 {
-                    title: 'women-bags',
+                    title: 'women bags',
                     imageUrl: 'https://i.ibb.co/6Dd00d3/women-bag-front-Cropped.jpg',
                     size: 'medium',
                     id: 4,
                     linkUrl: 'shop/women-bags'
                 },
                 {
-                    title: 'men-bags',
+                    title: 'men bags',
                     imageUrl: 'https://i.ibb.co/Z69G587/men-bag-front-Cropped.jpg',
                     size: 'medium',
                     id: 5,

@@ -11,14 +11,14 @@ class Directory5 extends React.Component {
         this.state = {
             sections: [
                 {
-                    title: 'all-women',
+                    title: 'all women',
                     imageUrl: 'https://i.ibb.co/R9Xqk6S/women-all-front.jpg',
                     size: 'large',
                     id: 17,
                     linkUrl: 'shop/all-women'
                 },
                 {
-                    title: 'all-men',
+                    title: 'all men',
                     imageUrl: 'https://i.ibb.co/YPkjs4v/men-all-products-front-Cropped.jpg',
                     size: 'large',
                     id: 18,

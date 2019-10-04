@@ -11,14 +11,14 @@ class Directory4 extends React.Component {
         this.state = {
             sections: [
                 {
-                    title: 'women-shades',
+                    title: 'women shades',
                     imageUrl: 'https://i.ibb.co/Yj9JjBD/woman-shades-front-Cropped.jpg',
                     size: 'medium',
                     id: 14,
                     linkUrl: 'shop/women-shades'
                 },
                 {
-                    title: 'men-shades',
+                    title: 'men shades',
                     imageUrl: 'https://i.ibb.co/b6Fx7wf/men-shades-front-Cropped.jpg',
                     size: 'medium',
                     id: 15,
