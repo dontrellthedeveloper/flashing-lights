@@ -1,9 +1,9 @@
 import React from 'react';
 
-import './menu-item-3.styles.scss';
+import './menu-item-8.styles.scss';
 
-const MenuItem3 = ({title, imageUrl }) => (
-    <div  className='menu-item-3'>
+const MenuItem8 = ({title, imageUrl }) => (
+    <div  className='menu-item-6'>
         <div className='background-image'
              style={{
                  backgroundImage: `url(${imageUrl})`
@@ -17,4 +17,4 @@ const MenuItem3 = ({title, imageUrl }) => (
     </div>
 );
 
-export default MenuItem3;
+export default MenuItem8;

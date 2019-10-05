@@ -1,5 +1,5 @@
-.menu-item-1 {
-  min-width: 40%;
+.menu-item-6 {
+  min-width: 15%;
   height: 240px;
   flex: 1 1 auto;
   display: flex;
@@ -22,7 +22,6 @@
     }
   }
 
-
   &:first-child {
     margin-right: 7.5px;
   }
@@ -39,8 +38,8 @@
   }
 
   .content {
-    height: 90px;
-    padding: 0 25px;
+    height: 60px;
+    padding: 0 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,13 +52,13 @@
     .title {
       font-weight: bold;
       margin-bottom: 6px;
-      font-size: 22px;
+      font-size: 14px;
       color: #4a4a4a;
     }
 
     .subtitle {
       font-weight: lighter;
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 }

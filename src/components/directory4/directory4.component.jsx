@@ -14,21 +14,21 @@ class Directory4 extends React.Component {
                     title: 'women shades',
                     imageUrl: 'https://i.ibb.co/Yj9JjBD/woman-shades-front-Cropped.jpg',
                     size: 'medium',
-                    id: 14,
+                    id: 19,
                     linkUrl: 'shop/women-shades'
                 },
                 {
                     title: 'men shades',
                     imageUrl: 'https://i.ibb.co/b6Fx7wf/men-shades-front-Cropped.jpg',
                     size: 'medium',
-                    id: 15,
+                    id: 20,
                     linkUrl: 'shop/men-shades'
                 },
                 {
                     title: 'necklaces',
                     imageUrl: 'https://i.ibb.co/7jMkGkg/necklace-front-Cropped.jpg',
                     size: 'medium',
-                    id: 16,
+                    id: 21,
                     linkUrl: 'shop/necklaces'
                 }
             ]

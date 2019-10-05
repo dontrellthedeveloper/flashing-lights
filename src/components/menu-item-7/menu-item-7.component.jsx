@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './menu-item-3.styles.scss';
+import './menu-item-7.styles.scss';
 
-const MenuItem3 = ({title, imageUrl }) => (
+const MenuItem7 = ({title, imageUrl }) => (
     <div  className='menu-item-3'>
         <div className='background-image'
              style={{
@@ -17,4 +17,4 @@ const MenuItem3 = ({title, imageUrl }) => (
     </div>
 );
 
-export default MenuItem3;
+export default MenuItem7;
