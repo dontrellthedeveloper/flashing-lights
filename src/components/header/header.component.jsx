@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom';
 import {ReactComponent as Logo} from "../../assets/crown.svg";
 
 
-
 import './header.styles.scss';
 
 class Header extends React.Component {
@@ -27,7 +26,7 @@ class Header extends React.Component {
     }
 
     componentWillUnmount() {
-        window.removeEventListener('scroll')
+        window.removeEventListener('scroll');
     }
 
 
