@@ -7,6 +7,7 @@
   background-color: white;
   padding-bottom: 15px;
   border-bottom: 1px solid black;
+  transition: .2s;
 
   .logo-container {
     height: 100%;
@@ -43,3 +44,24 @@
     }
   }
 }
+
+.nav {
+  width: 100%;
+  justify-content: center;
+  transition: .2s;
+}
+
+.nav_text {
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+
+.scrolled {
+  position: fixed;
+  z-index: 5;
+  transition: .2s;
+}
+
+
