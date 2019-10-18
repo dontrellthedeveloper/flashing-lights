@@ -1,7 +1,9 @@
 body {
     font-family: 'Open Sans Condensed';
 
-    background: linear-gradient(to bottom right, #ccccff 0%, #ffffff 100%);
+    background-color: white;
+
+    /*background: linear-gradient(to bottom right, #ccccff 0%, #ffffff 100%);*/
 
 }
 

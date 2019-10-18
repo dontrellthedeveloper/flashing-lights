@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
-  background-color: white;
+  background: linear-gradient(to bottom right, #ffffff  0%, #ccccff 75%);
   padding-bottom: 15px;
   border-bottom: 1px solid black;
   transition: .2s;
@@ -22,11 +22,24 @@
     align-items: center;
     justify-content: flex-end;
     padding-left: 160px;
-    padding-top: 10px;
+    padding-top: 2px;
     font-size: 2em;
     font-weight: 500;
     font-family: 'Dancing Script', cursive;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #ccccff,
+    0 3px 0 #fff,
+    0 4px 0 #ccccff,
+    0 5px 0 #ccccff,
+    0 6px 1px rgba(0,0,0,.05),
+    0 0 5px rgba(0,0,0,.05),
+    0 1px 3px rgba(0,0,0,.15),
+    0 3px 5px rgba(0,0,0,.1),
+    0 5px 10px rgba(0,0,0,.125),
+    0 10px 10px rgba(0,0,0,.1),
+    0 20px 20px rgba(0,0,0,.075);
   }
+
 
   .options {
     width: 50%;
@@ -41,6 +54,18 @@
     .option {
       padding: 10px 15px;
       font-weight: 600;
+      text-shadow: 0 1px 0 #ccc,
+      0 1px 0 #ccccff,
+      0 1.5px 0 #fff,
+      0 2px 0 #ccccff,
+      0 2.5px 0 #ccccff,
+      0 3px .5px rgba(0,0,0,.025),
+      0 0 2.5px rgba(0,0,0,.025),
+      0 1px 1.5px rgba(0,0,0,.025),
+      0 1px 2.5px rgba(0,0,0,.01),
+      0 2.5px 5px rgba(0,0,0,.0275),
+      0 5px 5px rgba(0,0,0,.05),
+      0 10px 10px rgba(0,0,0,.0175);
     }
   }
 }
