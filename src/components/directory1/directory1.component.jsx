@@ -12,13 +12,13 @@ class Directory1 extends React.Component {
             sections: [
                 {
                     title: 'women shoes',
-                    imageUrl: 'https://i.ibb.co/Cwrxz0Y/women-shoes-front-Cropped.jpg',
+                    imageUrl: 'https://i.ibb.co/BP8bJMz/women-shoes-front-2-Cropped.jpg',
                     id: 1,
                     linkUrl: 'shop/women-shoes'
                 },
                 {
                     title: 'men shoes',
-                    imageUrl: 'https://i.ibb.co/qMnKGQH/men-shoes-front-Cropped.jpg',
+                    imageUrl: 'https://i.ibb.co/Rp02qB3/men-shoes-front-2-Cropped.jpg',
                     id: 2,
                     linkUrl: 'shop/men-shoes'
                 }

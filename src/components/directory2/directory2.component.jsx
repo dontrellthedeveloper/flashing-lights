@@ -12,21 +12,21 @@ class Directory2 extends React.Component {
             sections: [
                 {
                     title: 'women purses',
-                    imageUrl: 'https://i.ibb.co/ykYj6dH/women-purse-front-Cropped.jpg',
+                    imageUrl: 'https://i.ibb.co/pwQzWj5/women-purses-front-2-Cropped.jpg',
                     size: 'medium',
                     id: 3,
                     linkUrl: 'shop/women-purses'
                 },
                 {
                     title: 'women bags',
-                    imageUrl: 'https://i.ibb.co/6Dd00d3/women-bag-front-Cropped.jpg',
+                    imageUrl: 'https://i.ibb.co/r2xP9PC/women-bags-front-2-Cropped.jpg',
                     size: 'medium',
                     id: 4,
                     linkUrl: 'shop/women-bags'
                 },
                 {
                     title: 'men bags',
-                    imageUrl: 'https://i.ibb.co/Z69G587/men-bag-front-Cropped.jpg',
+                    imageUrl: 'https://i.ibb.co/hKbmBrn/men-bags-front-3-Cropped.jpg',
                     size: 'medium',
                     id: 5,
                     linkUrl: 'shop/men-bags'

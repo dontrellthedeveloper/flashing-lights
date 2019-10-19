@@ -12,28 +12,28 @@ class Directory7 extends React.Component {
             sections: [
                 {
                     title: 'men blazers',
-                    imageUrl: 'https://i.ibb.co/R4BDY12/men-blazer-front-Cropped.jpg',
+                    imageUrl: 'https://i.ibb.co/HTYCtxG/men-blazer-front-2-Cropped.jpg',
                     size: 'small',
                     id: 15,
                     linkUrl: 'shop/men-blazers'
                 },
                 {
                     title: 'men shirts',
-                    imageUrl: 'https://i.ibb.co/fd0JfF8/men-shirt-front-Cropped.jpg',
+                    imageUrl: 'https://i.ibb.co/xhdp1ww/men-shirt-front-2-Cropped.jpg',
                     size: 'small',
                     id: 16,
                     linkUrl: 'shop/men-shirts'
                 },
                 {
                     title: 'men vests',
-                    imageUrl: 'https://i.ibb.co/mNrf236/men-vest-front-Cropped.jpg',
+                    imageUrl: 'https://i.ibb.co/Vt6hqTx/men-vest-front-2-Cropped.jpg',
                     size: 'small',
                     id: 17,
                     linkUrl: 'shop/men-vests'
                 },
                 {
                     title: 'men pants',
-                    imageUrl: 'https://i.ibb.co/cYBx7Kh/men-pants-front-Cropped.jpg',
+                    imageUrl: 'https://i.ibb.co/YN85rgk/men-pants-front-2-Cropped.jpg',
                     size: 'small',
                     id: 18,
                     linkUrl: 'shop/men-pants'

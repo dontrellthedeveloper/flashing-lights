@@ -12,28 +12,28 @@ class Directory3 extends React.Component {
             sections: [
                 {
                     title: 'business dresses',
-                    imageUrl: 'https://i.ibb.co/NN75d4v/women-business-dress-front-Cropped.jpg',
+                    imageUrl: 'https://i.ibb.co/RvJZL1R/women-business-dress-front-2-Cropped.jpg',
                     size: 'small',
                     id: 6,
                     linkUrl: 'shop/business-dresses'
                 },
                 {
                     title: 'summer dresses',
-                    imageUrl: 'https://i.ibb.co/QcRV4zc/women-summer-dress-front-Cropped.jpg',
+                    imageUrl: 'https://i.ibb.co/98dY9jJ/women-summer-dress-front-2-Cropped.jpg',
                     size: 'small',
                     id: 7,
                     linkUrl: 'shop/summer-dresses'
                 },
                 {
                     title: 'women vests',
-                    imageUrl: 'https://i.ibb.co/MZhDshG/women-vest-front-Cropped.jpg',
+                    imageUrl: 'https://i.ibb.co/Yy4D5jM/women-vest-front-2-Cropped.jpg',
                     size: 'small',
                     id: 8,
                     linkUrl: 'shop/women-vests'
                 },
                 {
                     title: 'women pants',
-                    imageUrl: 'https://i.ibb.co/HFTKfLq/women-pants-front-Cropped.jpg',
+                    imageUrl: 'https://i.ibb.co/GnZDyqR/women-pants-front-2-Cropped.jpg',
                     size: 'small',
                     id: 9,
                     linkUrl: 'shop/women-pants'
