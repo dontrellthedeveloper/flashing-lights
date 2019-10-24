@@ -1,0 +1,26 @@
+.cart-dropdown {
+  position: absolute;
+  width: 240px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: white;
+  top: 90px;
+  right: 25px;
+  z-index: 5;
+  margin-top: 8px;
+
+  .cart-items {
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+
+  button {
+    margin-top: 290px;
+    z-index: 4;
+  }
+}

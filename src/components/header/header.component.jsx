@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 
 import {auth} from '../../firebase/firebase.utils';
 import CartIcon from "../cart-icon/cart-icon.component";
+import CartDropdown from "../cart-dropdown/cart-dropdown.component";
 
 import {ReactComponent as Logo2} from "../../assets/flashing-lights12.svg";
 
@@ -66,6 +67,7 @@ class Header extends React.Component {
                                 }
                                 <CartIcon/>
                             </div>
+                            <CartDropdown/>
                         </div>
                     </div>
                 </div>
