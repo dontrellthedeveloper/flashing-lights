@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import {connect} from 'react-redux';
 
 import {auth} from '../../firebase/firebase.utils';
+import CartIcon from "../cart-icon/cart-icon.component";
 
 import {ReactComponent as Logo2} from "../../assets/flashing-lights12.svg";
 
@@ -63,6 +64,7 @@ class Header extends React.Component {
                                         </Link>
                                     )
                                 }
+                                <CartIcon/>
                             </div>
                         </div>
                     </div>
