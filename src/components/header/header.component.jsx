@@ -67,7 +67,7 @@ class Header extends React.Component {
                                 }
                                 <CartIcon/>
                             </div>
-                            <CartDropdown/>
+                            {this.props.hidden ? null : <CartDropdown />}
                         </div>
                     </div>
                 </div>
@@ -78,8 +78,9 @@ class Header extends React.Component {
     }
 }
 
-const mapStateToProps = state => ({
-    currentUser: state.user.currentUser
+const mapStateToProps = ({ user: { currentUser }, cart: { hidden } }) => ({
+    currentUser,
+    hidden
 });
 
 
