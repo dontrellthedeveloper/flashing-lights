@@ -36,6 +36,7 @@ class Header extends React.Component {
 
 
     render()  {
+        const {currentUser, hidden} = this.props;
         return (
             <div className='nav-wrapper'>
                 <div className={this.state.scrolled ? 'nav scrolled' : 'nav'}>
@@ -55,7 +56,7 @@ class Header extends React.Component {
                                     CONTACT
                                 </Link>
                                 {
-                                    this.props.currentUser ? (
+                                    currentUser ? (
                                         <div className='option' onClick={() => auth.signOut()}>
                                             SIGN OUT
                                         </div>
@@ -67,7 +68,7 @@ class Header extends React.Component {
                                 }
                                 <CartIcon/>
                             </div>
-                            {this.props.hidden ? null : <CartDropdown />}
+                            {hidden ? null : <CartDropdown />}
                         </div>
                     </div>
                 </div>
