@@ -18,7 +18,7 @@
       width: 23%;
 
       &:last-child {
-        width: 8%;
+        width: 18%;
       }
     }
   }
@@ -28,4 +28,24 @@
     margin-left: auto;
     font-size: 36px;
   }
+}
+
+.product {
+  margin-left: 45px;
+}
+
+.description {
+  margin-left: 22px;
+}
+
+.quantity {
+  margin-left: 5px;
+}
+
+.remove {
+  margin-right: 10px;
+}
+
+.price {
+
 }
