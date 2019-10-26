@@ -15,12 +15,25 @@
 
     .header-block {
       text-transform: capitalize;
-      width: 23%;
+      width: 18%;
 
       &:last-child {
-        width: 18%;
+        width: 5.5%;
       }
     }
+  }
+
+  .product {
+    margin-left: 45px;
+  }
+
+  .remove {
+    margin-left: -25px;
+  }
+
+
+  .description {
+    margin-left: 20px;
   }
 
   .total {
@@ -28,24 +41,4 @@
     margin-left: auto;
     font-size: 36px;
   }
-}
-
-.product {
-  margin-left: 45px;
-}
-
-.description {
-  margin-left: 22px;
-}
-
-.quantity {
-  margin-left: 5px;
-}
-
-.remove {
-  margin-right: 10px;
-}
-
-.price {
-
 }
