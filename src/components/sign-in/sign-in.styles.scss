@@ -1,7 +1,8 @@
 .sign-in {
-  width: 380px;
+  width: 340px;
   display: flex;
   flex-direction: column;
+  padding: 40px;
 
   .title {
     margin: 10px 0;
@@ -10,6 +11,12 @@
   .buttons {
     display: flex;
     justify-content: space-between;
+
+  }
+
+  .button {
+    width: 50px;
+    height: 20px;
   }
 
 }

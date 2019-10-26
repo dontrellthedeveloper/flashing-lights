@@ -12,7 +12,7 @@ const Footer  = ({total}) => (
     <div className='footer'>
         <div className='options'>
             <Link className='option' to='/checkout'>
-                Cart Total: $ {total}
+                Total: $ {total}
             </Link>
         </div>
     </div>

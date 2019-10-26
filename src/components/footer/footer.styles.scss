@@ -1,10 +1,10 @@
 .footer {
-  height: 50px;
+  height: 45px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   background: linear-gradient(to top right, #d4d3ff 0%, #bbbbfc 100%);
-  border-top: 1px solid black;
+  border-top: 1px solid #000000;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -22,7 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 50px;
+    padding-right: 120px;
 
 
     .option {
@@ -41,7 +41,7 @@
       0 2.5px 5px rgba(0,0,0,.0275),
       0 5px 5px rgba(0,0,0,.05),
       0 10px 10px rgba(0,0,0,.0175);
-      font-size: 1.7em;
+      font-size: 1.6em;
       padding-top: 8px;
     }
   }

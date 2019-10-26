@@ -8,7 +8,7 @@ import {selectCartItems, selectCartTotal} from "../../redux/cart/cart.selectors"
 
 import './checkout.styles.scss';
 
-const CheckoutPage = ({cartItems}) => (
+const CheckoutPage = ({cartItems, total}) => (
     <div className='checkout-page'>
         <div className='checkout-header'>
             <div className='header-block'>
@@ -33,7 +33,7 @@ const CheckoutPage = ({cartItems}) => (
             ))
         }
         <div className='total'>
-            {/*<span>TOTAL: ${total}</span>*/}
+            {/*<span>CART TOTAL: ${total}</span>*/}
         </div>
     </div>
 );

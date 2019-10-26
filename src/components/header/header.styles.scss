@@ -9,11 +9,6 @@
   border-bottom: 1px solid black;
   transition: .2s;
 
-  .logo-container {
-    height: 100%;
-    width: 70px;
-    padding: 5px;
-  }
 
   .title-name {
     width: 50%;
@@ -21,7 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-left: 175px;
+    padding-left: 250px;
     padding-top: 12px;
     font-size: 1.7em;
     font-family: 'Luckiest Guy', cursive;
@@ -41,10 +36,70 @@
     margin-top: 1px;
   }
 
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 5px;
+    position: absolute;
+    margin-left: 15px;
+  }
+
   .logo {
     height: 60px;
     width: 110px;
   }
+
+  .logo-container4 {
+    padding: 5px;
+    margin-top: 100px;
+    position: relative;
+    margin-left: 25px;
+  }
+
+  .logo5 {
+    margin-top: 140px;
+    width: 40px;
+    height: 60px;
+  }
+
+  .logo6 {
+    width: 40px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+
+  .logo7 {
+    width: 40px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+
+  .logo8 {
+    width: 40px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+
+  }
+
+  .logo-container3 {
+    width: 40px;
+    padding: 5px;
+    margin-top: 400px;
+    margin-right: 5px;
+  }
+
+  .logo3 {
+    margin-top: 249px;
+  }
+
+  .logo4 {
+    margin-top: 36.5px;
+  }
+
+
 
   .options2 {
     margin-top: 23px;
@@ -78,7 +133,7 @@
 
 
     .option {
-      padding: 10px 2px;
+      padding: 10px 5px;
       cursor: pointer;
       color: white;
       font-family: 'Luckiest Guy', cursive;
@@ -121,6 +176,8 @@
 .nav-wrapper {
   height: 93px;
 }
+
+
 
 
 
