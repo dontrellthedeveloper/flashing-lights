@@ -51,6 +51,9 @@ class Header extends React.Component {
                             <Link className='title-name' to='/'>
                                 FLASHING LIGHTS
                             </Link>
+                            <div className='options2'>
+                                APPAREL
+                            </div>
                             <div className='options'>
                                 <Link className='option' to='/shop'>
                                     SHOP
@@ -69,7 +72,7 @@ class Header extends React.Component {
                                         </Link>
                                     )
                                 }
-                                <CartIcon/>
+                                <CartIcon />
                             </div>
                             {hidden ? null : <CartDropdown />}
                         </div>
