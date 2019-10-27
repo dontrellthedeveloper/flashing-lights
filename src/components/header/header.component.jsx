@@ -55,7 +55,7 @@ class Header extends React.Component {
                     <div className='nav_text'>
                         <div className='header'>
 
-                            <Link to='/' className='logo-container'>
+                            <div to='/' className='logo-container'>
                                 <Logo2 className='logo' />
                                 <Link to='/' className='logo-container4'>
                                     <Logo5 className='logo5' />
@@ -63,7 +63,7 @@ class Header extends React.Component {
                                     <Logo7 className='logo7' />
                                     <Logo8 className='logo8' />
                                 </Link>
-                            </Link>
+                            </div>
                             <Link className='title-name' to='/'>
                                 FLASHING LIGHTS
                             </Link>
