@@ -1,5 +1,5 @@
-const CLOTHING_DATA = [
-    {
+const CLOTHING_DATA = {
+    'women-shoes': {
         id: 1,
         title: 'Women Shoes',
         routeName: 'women-shoes',
@@ -102,7 +102,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'men-shoes': {
         id: 2,
         title: 'Men Shoes',
         routeName: 'men-shoes',
@@ -205,7 +205,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'women-purses': {
         id: 3,
         title: 'Women Purses',
         routeName: 'women-purses',
@@ -308,7 +308,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'women-bags': {
         id: 4,
         title: 'Women Bags',
         routeName: 'women-bags',
@@ -411,7 +411,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'men-bags': {
         id: 5,
         title: 'Men Bags',
         routeName: 'men-bags',
@@ -514,7 +514,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'business-dresses': {
         id: 6,
         title: 'Business Dresses',
         routeName: 'business-dresses',
@@ -593,7 +593,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'summer-dresses': {
         id: 7,
         title: 'Summer Dresses',
         routeName: 'summer-dresses',
@@ -672,7 +672,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'women-vests': {
         id: 8,
         title: 'Women Vests',
         routeName: 'women-vests',
@@ -751,7 +751,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'women-pants': {
         id: 9,
         title: 'Women Pants',
         routeName: 'women-pants',
@@ -830,7 +830,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'women-hats': {
         id: 10,
         title: 'Women Hats',
         routeName: 'women-hats',
@@ -933,7 +933,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'women-watches': {
         id: 11,
         title: 'Women Watches',
         routeName: 'women-watches',
@@ -1036,7 +1036,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    belts: {
         id: 12,
         title: 'Belts',
         routeName: 'belts',
@@ -1139,7 +1139,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'men-watches': {
         id: 13,
         title: 'Men Watches',
         routeName: 'men-watches',
@@ -1242,7 +1242,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'men-hats': {
         id: 14,
         title: 'Men Hats',
         routeName: 'men-hats',
@@ -1345,7 +1345,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'men-blazers': {
         id: 15,
         title: 'Men Blazers',
         routeName: 'men-blazers',
@@ -1424,7 +1424,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'men-shirts': {
         id: 16,
         title: 'Men Shirts',
         routeName: 'men-shirts',
@@ -1503,7 +1503,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'men-vests': {
         id: 17,
         title: 'Men Vests',
         routeName: 'men-vests',
@@ -1582,7 +1582,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'men-pants': {
         id: 18,
         title: 'Men Pants',
         routeName: 'men-pants',
@@ -1661,7 +1661,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'women-shades': {
         id: 19,
         title: 'Women Shades',
         routeName: 'women-shades',
@@ -1764,7 +1764,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'men-shades': {
         id: 20,
         title: 'Men Shades',
         routeName: 'men-shades',
@@ -1867,7 +1867,7 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    necklaces: {
         id: 21,
         title: 'Necklaces',
         routeName: 'necklaces',
@@ -1970,9 +1970,9 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'all-women': {
         id: 22,
-        title: 'All Womens',
+        title: 'All Women',
         routeName: 'all-women',
         items: [
             {
@@ -2937,9 +2937,9 @@ const CLOTHING_DATA = [
             }
         ]
     },
-    {
+    'all-men': {
         id: 23,
-        title: 'All Mens',
+        title: 'All Men',
         routeName: 'all-men',
         items: [
             {
@@ -3799,9 +3799,15 @@ const CLOTHING_DATA = [
                 name: 'Gold Flash',
                 imageUrl: 'https://i.ibb.co/XDqK1nj/men-necklace-7-Cropped.jpg',
                 price: 89
+            },
+            {
+                id: 608,
+                name: 'Silver Diamond',
+                imageUrl: 'https://i.ibb.co/DrS8zm0/men-necklace-8-Cropped.jpg',
+                price: 59
             }
         ]
     }
-];
+};
 
 export default CLOTHING_DATA;

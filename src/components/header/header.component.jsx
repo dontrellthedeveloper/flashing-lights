@@ -55,15 +55,15 @@ class Header extends React.Component {
                     <div className='nav_text'>
                         <div className='header'>
 
-                            <div to='/' className='logo-container'>
+                            <Link to='/' className='logo-container'>
                                 <Logo2 className='logo' />
-                                <Link to='/' className='logo-container4'>
-                                    <Logo5 className='logo5' />
-                                    <Logo6 className='logo6' />
-                                    <Logo7 className='logo7' />
-                                    <Logo8 className='logo8' />
-                                </Link>
-                            </div>
+                                <div to='/' className='logo-container4'>
+                                <Logo5 className='logo5' />
+                                <Logo6 className='logo6' />
+                                <Logo7 className='logo7' />
+                                <Logo8 className='logo8' />
+                                </div>
+                            </Link>
                             <Link className='title-name' to='/'>
                                 FLASHING LIGHTS
                             </Link>
