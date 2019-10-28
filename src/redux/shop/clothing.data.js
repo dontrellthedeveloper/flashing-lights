@@ -1207,7 +1207,7 @@ const CLOTHING_DATA = {
             {
                 id: 187,
                 name: 'Black Select',
-                imageUrl: 'https://i.ibb.co/qk295Kj/men-watch-2-Cropped.jpg',
+                imageUrl: 'https://i.ibb.co/Q9ZDR6t/men-watch-3-Cropped.jpg',
                 price: 89
             },
             {
@@ -3245,7 +3245,7 @@ const CLOTHING_DATA = {
             {
                 id: 515,
                 name: 'Black Select',
-                imageUrl: 'https://i.ibb.co/qk295Kj/men-watch-2-Cropped.jpg',
+                imageUrl: 'https://i.ibb.co/Q9ZDR6t/men-watch-3-Cropped.jpg',
                 price: 89
             },
             {
