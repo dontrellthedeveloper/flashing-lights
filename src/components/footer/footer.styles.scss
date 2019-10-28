@@ -22,8 +22,13 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 100px;
     //padding-right: 90px;
+
+    .stripe-button {
+      background-color: #414171;
+    }
 
 
     .option {
@@ -42,8 +47,10 @@
       0 2.5px 5px rgba(0,0,0,.0275),
       0 5px 5px rgba(0,0,0,.05),
       0 10px 10px rgba(0,0,0,.0175);
-      font-size: 2.2em;
-      padding-top: 8px;
+      font-size: 2.3em;
+      padding-top: 10px;
+      margin-right: 625px;
+
     }
   }
 }

@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px auto 0;
+  margin: 50px auto 100px;
 
   .checkout-header {
     width: 100%;
@@ -37,11 +37,23 @@
   }
 
   .total {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: auto;
     font-size: 36px;
     font-family: 'Luckiest Guy', cursive;
     color: #7373ba;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .test-payment {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #414171;
+    margin-bottom: 25px;
+  }
+
+  button {
+    margin-left: auto;
   }
 }
