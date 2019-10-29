@@ -1,13 +1,15 @@
 import React from 'react';
 
-import FormInput from "../form-input/form-input.component";
-import CustomButton from "../custom-button/custom-button.component";
+import FormInput from '../form-input/form-input.component';
+import CustomButton from '../custom-button/custom-button.component';
 
-import {auth, createUserProfileDocument} from "../../firebase/firebase.utils";
+import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
 
 import './sign-up.styles.scss';
 
 class SignUp extends React.Component {
+    _isMounted = false;
+
     constructor() {
         super();
 
@@ -17,6 +19,14 @@ class SignUp extends React.Component {
             password: '',
             confirmPassword: ''
         };
+    }
+
+    componentDidMount() {
+        this._isMounted = true;
+    }
+
+    componentWillUnmount() {
+        this._isMounted = false;
     }
 
     handleSubmit = async event => {
@@ -48,13 +58,11 @@ class SignUp extends React.Component {
         }
     };
 
-
     handleChange = event => {
         const { name, value } = event.target;
 
         this.setState({ [name]: value });
     };
-
 
     render() {
         const { displayName, email, password, confirmPassword } = this.state;
