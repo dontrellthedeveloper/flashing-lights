@@ -6,7 +6,6 @@ import './footer.styles.scss';
 
 import {selectCartItems, selectCartTotal} from "../../redux/cart/cart.selectors";
 import {createStructuredSelector} from "reselect";
-import StripeCheckoutButton from "../stripe-button/stripe-button.component";
 
 
 const Footer  = ({total}) => (
@@ -15,7 +14,6 @@ const Footer  = ({total}) => (
             <Link className='option' to='/checkout'>
                 Cart Total: $ {total}
             </Link>
-            <StripeCheckoutButton price={total} />
         </div>
     </div>
 );
