@@ -20,8 +20,9 @@ import {ReactComponent as Logo8} from "../../assets/youtube.svg";
 import {ReactComponent as Logo9} from "../../assets/pinterest.svg";
 import {ReactComponent as Logo10} from "../../assets/tumblr.svg";
 
-
 import './header.styles.scss';
+
+
 
 class Header extends React.Component {
     constructor() {
