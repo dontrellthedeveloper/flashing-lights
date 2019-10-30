@@ -6,8 +6,8 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  color: white;
-  font-size: 2em;
+  color: #565698;
+  font-size: 4em;
   text-shadow: 0 1px 0 #ccc,
   0 .5px 0 #ccccff,
   0 .75px 0 #fff,
@@ -21,16 +21,31 @@
   0 5px 5px rgba(0,0,0,.05),
   0 10px 10px rgba(0,0,0,.0175);
 
+
+
   .shopping-icon {
     width: 24px;
     height: 24px;
-    margin-bottom: 6px;
+    margin-bottom: 8.5px;
+  }
+
+  .shopping-icon:hover {
+    color: #bebef9;
+    text-shadow: -.4px 0 #bebef9, 0 .4px #4f4f8d, .4px 0 #6b6bb2, 0 -.4px #9696dd;
   }
 
   .item-count {
     position: absolute;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     bottom: 12px;
+    color: #4f4f8d;
   }
+
+  .item-count:hover {
+    color: #bebef9;
+    text-shadow: -.4px 0 #bebef9, 0 .4px #4f4f8d, .4px 0 #6b6bb2, 0 -.4px #9696dd;
+  }
+
+
 }
